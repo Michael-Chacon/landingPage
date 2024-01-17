@@ -106,7 +106,7 @@ section .main-content{
 
 .main-content p{
     margin-top: 10px;
-    color: #457d7b;
+    color: gray;
     font-weight: 600;
 }
 
@@ -144,7 +144,7 @@ section .main-content{
     max-width: 450px;
     width: 100%;
     margin-right: 100px;
-    transform: rotate(40deg);
+    transform: rotate(40deg) translateX(900px);
     filter: drop-shadow(-10px -10px 200px #f74f10)
 }
 
