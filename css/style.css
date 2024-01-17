@@ -10,7 +10,7 @@
 body{
     width: 100%;
     height: 100vh;
-    overflow-x: hidden;
+    overflow: hidden;
     background-color: black;
 }
 
@@ -141,9 +141,40 @@ section .main-content{
 }
 
 .content .image img{
-    min-width: 350px;
+    max-width: 450px;
     width: 100%;
     margin-right: 100px;
     transform: rotate(40deg);
     filter: drop-shadow(-10px -10px 200px #f74f10)
 }
+
+/* Media querys */
+
+@media(max-width:800px){
+    .content{
+        display: flex;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .main-content{
+        margin: 0 10px;
+    }
+}
+
+@media(min-width:884px){
+    .content .image img{
+        min-width: 500px;
+    }
+}
+
+@media(max-width:440px){
+    .links{
+        display: none;
+    }
+    .image img{
+        width: 100px;
+        margin-right: none;
+    }
+}
+
