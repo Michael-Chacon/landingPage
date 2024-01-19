@@ -206,7 +206,7 @@ section .main-content{
    }
 
    .links a{
-    padding: 16px 0;
+    padding: 13px 0;
    }
 
    .container .search i{
@@ -242,6 +242,11 @@ section .main-content{
 .links a:hover{
     color: orange;
     width: 90%
+}
+
+.content .image img{
+    margin: auto;
+    max-width: 325px;
 }
 
 }
